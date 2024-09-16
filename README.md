@@ -1,1 +1,3 @@
-Predicting blueberry yield using ML modeling. 
+# PredictingBlueberryYield
+
+The overall goal of this project was to generate a regression model that can accurately predict the yield of blueberries in an area given weather conditions and bee pollination density. Data was derived from the Wild Blueberry Pollination Simulation Model, which is an open-source program that has been validated by field data collected in Maine and Canada. Although the data is simulated, it has generated samples based on real-world data used as input. The project was conducted in three parts - exploratory data analysis, data cleaning / preparation, and modeling. In the end, the one-hot encoded dataset with no other transformations produced the best ridge regression model. All data manipulation was conucted using a python Jupyter notebook. 
